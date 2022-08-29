@@ -1,0 +1,20 @@
+# Server Port
+server.port={{ server.port }}
+##########################################################
+#Email Config
+
+spring.mail.host={{ spring.mail.host }}
+spring.mail.port={{ spring.mail.port }}
+spring.mail.username={{ spring.mail.username }}
+spring.mail.password={{ spring.mail.password }}
+spring.mail.properties.mail.smtp.auth={{ spring.mail.properties.mail.smtp.auth }}
+spring.mail.properties.mail.smtp.starttls.enable={{ spring.mail.properties.mail.smtp.starttls.enable }}
+mail_protocol={{ mail_protocol }}
+mail_debug={{ mail_debug }}
+from_mail={{ from_mail }}
+#############################
+
+##########################################################
+## Cross Origin Parameters
+settings.cors_origin.public={{ settings.cors_origin.public }}
+settings.cors_origin.business={{ settings.cors_origin.business }}
